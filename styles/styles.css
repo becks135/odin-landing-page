@@ -131,7 +131,7 @@ button {
     border-radius: 10px;
     font-size: 18px;
     color:white;
-    line-height: 3px;
+    gap:10px;
 }
 
 .sign-up button {
