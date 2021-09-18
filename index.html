@@ -50,7 +50,7 @@
             display: flex;
             justify-content: space-between;
             color: white;
-            padding: 20px 200px 0px 200px;
+            padding: 20px 150px 0px 150px;
         }
 
         .header-links {
@@ -69,7 +69,7 @@
             display: flex;
             align-items: center;
             gap: 50px;
-            padding: 100px 200px;
+            padding: 100px 150px;
         }
 
         .top-left {
@@ -81,6 +81,30 @@
 
         .top-image {
             flex: 1;
+        }
+        .info-img{
+            width:150px;
+            height:150px;
+            border-style:solid;
+            border-radius: 10px;
+            border-color:#3882f6;
+            border-width: 5px;;
+        }
+
+        .info-tiles{
+            display:flex;
+            padding:10px 200px;
+        }
+
+        .middle1{
+            text-align:center;
+        }
+
+        .info-header{
+            padding:50px;
+            color:#1F2937;
+            font-size: 36px;
+            font-weight:bolder;
         }
     </style>
 
@@ -107,12 +131,12 @@
         <div class="top-image">this is a placeholder for an image</div>
     </div>
     <div class="middle1">
-        <div class="infomation-header">Some random information</div>
-        <div class="information-tiles">
-            <div class="info">f</div>
-            <div class="info">f</div>
-            <div class="info">s</div>
-            <div class="info">s</div>
+        <div class="info-header">Some random information</div>
+        <div class="info-tiles">
+            <div class="info"><img class="info-img" src="images/pexels-oleg-magni-1005644.jpg"><p>this is some subtext under an illustration or image</p></div>
+            <div class="info"><img class="info-img" src="images/pexels-picjumbocom-196645.jpg"><p>this is some subtext under an illustration or image</p></div>
+            <div class="info"><img class="info-img" src="images/pexels-pixabay-355948.jpg"><p>this is some subtext under an illustration or image</p></div>
+            <div class="info"><img class="info-img" src="images/pexels-oleg-magni-1005644.jpg"><p>this is some subtext under an illustration or image</p></div>
         </div>
     </div>
     <div class="middle2">"This is a quote.."</div>
