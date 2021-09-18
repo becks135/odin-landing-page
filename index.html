@@ -6,17 +6,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dark-background {
+            background-color: #1F2937;
+        }
+
+        .main-text {
+            font-size: 48px;
+            font-weight: bolder;
+            color: #f9faf8;
+        }
+
+        .secondary-text {
+            color: #e5e7eb;
+            font-size: 18px;
+        }
+
+        button {
+            width: max-content;
+            background-color: #3882f6;
+            padding: 8px 40px;
+            border-radius: 8px;
+            border-style: none;
+            font-size: 16px;
+            color: #f9faf8;
+            font-weight: bold;
+
+        }
+
+        .header-logo {
+            color: #f9faf8;
+            font-size: 24px;
+            font-weight: bolder;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            padding: 20px 200px 0px 200px;
+        }
+
+        .header-links {
+            display: flex;
+            gap: 10px;
+        }
+
+        .header-links a {
+            text-decoration: none;
+
+            flex: 0 0 auto;
+
+        }
+
+        .top-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            padding: 100px 200px;
+        }
+
+        .top-left {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            gap: 10px;
+        }
+
+        .top-image {
+            flex: 1;
+        }
+    </style>
+
 </head>
 
 <body>
-    <div class="header">
+    <div class="header dark-background">
         <div class="header-logo">Header Logo</div>
         <div class="header-links">
-            <a href="#">header link one</a>
-            <a href="#">header link two</a>
-            <a href="#">header link three</a>
+            <a class="secondary-text" href="#">header link one</a>
+            <a class="secondary-text" href="#">header link two</a>
+            <a class="secondary-text" href="#">header link three</a>
         </div>
     </div>
+    <div class="top-content dark-background">
+        <div class="top-left">
+            <div class="main-text">This website is awesome</div>
+            <div class="secondary-text">This website has some subtext that does under the main title. It's a smaller
+                font and the color is
+                lower
+                contrast</div>
+            <button class="signup">Sign up</button>
+        </div>
+        <div class="top-image">this is a placeholder for an image</div>
+    </div>
+    <div class="middle1">
+        <div class="infomation-header">Some random information</div>
+        <div class="information-tiles">
+            <div class="info">f</div>
+            <div class="info">f</div>
+            <div class="info">s</div>
+            <div class="info">s</div>
+        </div>
+    </div>
+    <div class="middle2">"This is a quote.."</div>
+    <div class="sign-up">xyx</div>
+    <div class="footer">Copyright The .....</div>
 
 </body>
 
